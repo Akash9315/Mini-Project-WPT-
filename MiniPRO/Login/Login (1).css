@@ -1,0 +1,66 @@
+  Body {  
+  font-family:sans-serif;  
+  /* background-color: rgb(17, 16, 16);   */
+}  
+.Head{
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+button {   
+    background: linear-gradient(to right, #33a3ff, #0675cf, #4cd5ff);  
+       width: 100%;  
+        color: rgb(44, 11, 11);   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;  
+        border-radius: 4px; 
+         }   
+ #h4{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: xx-large;
+     font-weight: bolder;
+     margin-top: 8px;
+ }
+ form {   
+        /* border: 3px solid #f1f1f1;    */
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid #4cd5ff;   
+        box-sizing: border-box; 
+        border-radius: 8px;  
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+    .col{
+        color: rgb(17, 19, 19);
+    }
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container { 
+        margin-top: 20px;
+        height: 500px;
+        width: 400px;
+        padding: 20px;
+        position: absolute;
+        top: 50%;  
+        left: 50%; 
+        transform: translate(-50%,-50%);
+        text-align: center;
+        background-color: rgb(234, 238, 240);  
+    }   
